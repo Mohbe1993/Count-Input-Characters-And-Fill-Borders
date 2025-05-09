@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  width: 300px;
+  margin: 20px auto;
+}
+input {
+  padding: 15px;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.prog {
+  background-color: red;
+  height: 2px;
+  width: 0;
+  display: block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.count {
+  display: block;
+  text-align: right;
+  padding: 5px;
+}
+
+.zero {
+  font-weight: bold;
+  color: red;
+}
